@@ -1,0 +1,79 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMP CODE"
+        android:textSize="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ecode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMP NAME"
+        android:textSize="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESIGNATION"
+        android:textSize="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:id="@+id/edes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL ID"
+        android:textSize="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALARY"
+        android:textSize="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:id="@+id/esal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/sub"
+        android:text="SUBMIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/menu"
+        android:text="BACK TO MENU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
